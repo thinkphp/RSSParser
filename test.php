@@ -39,7 +39,7 @@ foreach($rss->getItems() as $item) {
  
     echo'&lt;a href="'.$item->getLink().'"&gt;'.
 
-                    $item->getTitle().'&lt;/a&gt;<br/>';
+                    $item->getTitle().'&lt;/a&gt;&lt;br/&gt;';
 }
 ?&gt;
 </code></pre>
