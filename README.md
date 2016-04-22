@@ -16,6 +16,6 @@ Usage
 
          foreach($rss->getItems() as $item) {
  
-            echo'<a href="'.$item->getLink().'">'.$item->getTitle().</a><br/>';
+            echo'<a href="'.$item->getLink().'">'.$item->getTitle().'</a><br/>';
          }
       ?>
